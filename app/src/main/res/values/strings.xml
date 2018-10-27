@@ -1,0 +1,360 @@
+<resources>
+    <string name="app_name">eProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">Search</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_submit">Submit</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_login">Login</string>
+    <string name="title_register">Register</string>
+    <string name="title_activity_bottom">BottomActivity</string>
+    <string name="not_having_account">Not Having an Account ?</string>
+    <string name="already_having_account">Already Having an Account ?</string>
+
+    <string name="nik">NIK ?</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_incorrect_confirm_password">Both password and confirm password does not match</string>
+
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_tasks">TasksActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_short_cut">ShortCutActivity</string>
+    <string name="title_activity_bottom_menu">BottomMenuActivity</string>
+
+
+    <string name="next">Selanjutnya</string>
+    <string name="prev">Sebelumnya</string>
+    <string name="finish">Kirim</string>
+    <string name="review">Review</string>
+    <string name="take_picture">Ambil Foto</string>
+
+    <string name="label_your_name">Name</string>
+    <string name="label_your_email">Email</string>
+
+    <string name="label_asset_id">No.Asset / Serial Number / No. POL</string>
+    <string name="label_project_code">Kode Project</string>
+    <string name="label_remark">Kondisi Asset</string>
+
+
+    <string name="submit_confirm_message">Place the order with the deli? You will receive an email
+        confirmation.</string>
+    <string name="submit_confirm_button">Place order</string>
+    <string name="title_activity_approval">ApprovalActivity</string>
+    <string name="tab_ca_approval">Cash Advance</string>
+    <string name="tab_am_approval">Peminjaman Tools</string>
+    <string name="tab_am_asset_registration">Registrasi Asset</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="google_maps_key"></string>
+    <string name="title_activity_select_driver">SelectDriver</string>
+    <string name="style_json">[
+  {
+    \"elementType\": \"geometry\",
+    \"stylers\": [
+      {
+        \"color\": \"#ebe3cd\"
+      }
+    ]
+  },
+  {
+    \"elementType\": \"labels.text.fill\",
+    \"stylers\": [
+      {
+        \"color\": \"#523735\"
+      }
+    ]
+  },
+  {
+    \"elementType\": \"labels.text.stroke\",
+    \"stylers\": [
+      {
+        \"color\": \"#f5f1e6\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"administrative\",
+    \"elementType\": \"geometry.stroke\",
+    \"stylers\": [
+      {
+        \"color\": \"#c9b2a6\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"administrative.land_parcel\",
+    \"elementType\": \"geometry.stroke\",
+    \"stylers\": [
+      {
+        \"color\": \"#dcd2be\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"administrative.land_parcel\",
+    \"elementType\": \"labels.text.fill\",
+    \"stylers\": [
+      {
+        \"color\": \"#ae9e90\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"landscape.natural\",
+    \"elementType\": \"geometry\",
+    \"stylers\": [
+      {
+        \"color\": \"#dfd2ae\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"poi\",
+    \"elementType\": \"geometry\",
+    \"stylers\": [
+      {
+        \"color\": \"#dfd2ae\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"poi\",
+    \"elementType\": \"labels.text.fill\",
+    \"stylers\": [
+      {
+        \"color\": \"#93817c\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"poi.park\",
+    \"elementType\": \"geometry.fill\",
+    \"stylers\": [
+      {
+        \"color\": \"#a5b076\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"poi.park\",
+    \"elementType\": \"labels.text.fill\",
+    \"stylers\": [
+      {
+        \"color\": \"#447530\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"road\",
+    \"elementType\": \"geometry\",
+    \"stylers\": [
+      {
+        \"color\": \"#f5f1e6\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"road.arterial\",
+    \"elementType\": \"geometry\",
+    \"stylers\": [
+      {
+        \"color\": \"#fdfcf8\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"road.highway\",
+    \"elementType\": \"geometry\",
+    \"stylers\": [
+      {
+        \"color\": \"#f8c967\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"road.highway\",
+    \"elementType\": \"geometry.stroke\",
+    \"stylers\": [
+      {
+        \"color\": \"#e9bc62\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"road.highway.controlled_access\",
+    \"elementType\": \"geometry\",
+    \"stylers\": [
+      {
+        \"color\": \"#e98d58\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"road.highway.controlled_access\",
+    \"elementType\": \"geometry.stroke\",
+    \"stylers\": [
+      {
+        \"color\": \"#db8555\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"road.local\",
+    \"elementType\": \"labels.text.fill\",
+    \"stylers\": [
+      {
+        \"color\": \"#806b63\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"transit.line\",
+    \"elementType\": \"geometry\",
+    \"stylers\": [
+      {
+        \"color\": \"#dfd2ae\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"transit.line\",
+    \"elementType\": \"labels.text.fill\",
+    \"stylers\": [
+      {
+        \"color\": \"#8f7d77\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"transit.line\",
+    \"elementType\": \"labels.text.stroke\",
+    \"stylers\": [
+      {
+        \"color\": \"#ebe3cd\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"transit.station\",
+    \"elementType\": \"geometry\",
+    \"stylers\": [
+      {
+        \"color\": \"#dfd2ae\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"water\",
+    \"elementType\": \"geometry.fill\",
+    \"stylers\": [
+      {
+        \"color\": \"#b9d3c2\"
+      }
+    ]
+  },
+  {
+    \"featureType\": \"water\",
+    \"elementType\": \"labels.text.fill\",
+    \"stylers\": [
+      {
+        \"color\": \"#92998d\"
+      }
+    ]
+  }
+]</string>
+</resources>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#02a0e1</color>
+    <color name="colorPrimaryDark">#02A0E1</color>
+    <color name="colorAccent">#8e8e8e</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorPrimaryOld">#db4437</color>
+    <color name="colorPrimaryDarkOld">#b93221</color>
+    <color name="colorAccentOld">#FFFFFF</color>
+    <color name="from">#000000</color>
+    <color name="subject">#111111</color>
+    <color name="timestamp">#4285f4</color>
+    <color name="message">#7a7a7a</color>
+    <color name="icon_tint_normal">#7a7a7a</color>
+    <color name="icon_tint_selected">#fed776</color>
+    <color name="row_activated">#e0e0e0</color>
+    <color name="bg_action_mode">#757575</color>
+    <color name="bg_circle_default">#666666</color>
+    <color name="colorPrimaryNew">#f5fff536</color>
+    <color name="text_light">#66000000</color>
+    <color name="review_green">#ff669900</color>
+
+    <color name="step_pager_previous_tab_color">#4433b5e5</color>
+    <color name="step_pager_selected_tab_color">#ff0099cc</color>
+    <color name="step_pager_selected_last_tab_color">#ff669900</color>
+    <color name="step_pager_next_tab_color">#10000000</color>
+
+    <color name="purple_500">#fafafa</color>
+    <color name="deep_purple_500">#44ededed</color>
+
+    <color name="orange">#FF4630</color>
+    <color name="purple">#7745A9</color>
+    <color name="orangelight">#FF6250</color>
+    <color name="whiteblue">#F1F5F6</color>
+    <color name="dot_inactive">#E1E7EB</color>
+    <color name="dot_active">#A1ABB2</color>
+    <color name="textGray">#8B999F</color>
+    <color name="separator">#D0D4D9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="whitegrey">#F9F9F9</color>
+
+
+</resources>

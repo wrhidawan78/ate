@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/WizardPageContainer"
+    android:padding="10dp">
+
+    <TextView
+        style="@style/WizardPageTitle"
+        android:gravity="center"
+        android:paddingBottom="20dp"/>
+
+    <ScrollView android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:scrollbarStyle="outsideOverlay">
+
+        <LinearLayout android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView style="@style/WizardFormLabel"
+                android:text="@string/label_asset_id" />
+
+            <EditText android:id="@+id/assetID"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:saveEnabled="false"
+                android:inputType="textCapWords"
+                android:layout_marginBottom="16dp" />
+
+            <TextView style="@style/WizardFormLabel"
+                android:text="@string/label_project_code" />
+
+
+
+            <AutoCompleteTextView
+                android:id="@+id/projectCode"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:saveEnabled="false"
+                android:inputType="textEmailAddress">
+                </AutoCompleteTextView>
+
+
+
+            <TextView style="@style/WizardFormLabel"
+                android:text="@string/label_remark" />
+
+            <EditText android:id="@+id/remark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:saveEnabled="false"
+                android:ems="10"
+                android:inputType="textMultiLine" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

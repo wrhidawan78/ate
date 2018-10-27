@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AssetRegTakePictureActivity"
+    android:padding="20dp">
+
+    <ImageView
+             android:id="@+id/picture"
+             android:layout_width="match_parent"
+             android:layout_height="250dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ccc" />
+
+        <EditText
+            android:id="@+id/asset_no"
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:inputType="textPersonName"
+            android:hint="Asset No / SN No"
+            android:layout_marginTop="10dp"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:gravity="center"
+            android:text=""
+            android:textColor="#ccc" />
+
+
+
+        <Button
+            android:id="@+id/btn_upload"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/action_submit"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textColor="@color/colorWhite"
+            android:background="@color/colorPrimaryDark"/>
+
+
+
+
+
+
+</LinearLayout>
